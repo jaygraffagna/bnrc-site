@@ -1,11 +1,11 @@
 import Typography from 'typography';
 
 export const typography = new Typography({
-  title: 'GatsbyTutorial',
+  title: 'BNRCs',
   baseFontSize: '18px',
   baseLineHeight: 1.45,
   headerFontFamily: [
-    'Candal',
+    'Roboto',
     '-apple-system',
     'BlinkMacSystemFont',
     'Segoe UI',

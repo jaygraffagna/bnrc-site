@@ -25,7 +25,7 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Bettendorf Natural Resource Committee'} />
-      <Header title="Bettendorf Natural Resource Committee">Restoring Bettendorf's Natural Resources</Header>
+      <Header title="Bettendorf Natural Resource Committee">Restoring &amp; Protecting <br/> Bettendorf's Natural Resources</Header>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList
