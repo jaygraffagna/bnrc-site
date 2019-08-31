@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import Headroom from 'react-headroom';
-import logo from '../../static/logo/header-logo.png';
 
 const StyledLink = styled(Link)`
   display: flex;
   font-weight: 700;
   align-items: center;
+
+  color: ${props => props.theme.colors.white.base};
 `;
 
 const Nav = styled.nav`
@@ -30,7 +31,7 @@ const Nav = styled.nav`
 const NavBar = () => (
   <Headroom calcHeightOnResize disableInlineStyles>
     <StyledLink to="/">
-      <img src={logo} alt="Gatsby Logo" />
+      <h1>BNRC</h1>
     </StyledLink>
     <Nav>
       <Link to="/">Home</Link>

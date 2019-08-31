@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-tutorial-starter",
-  "author": "Justin Formentin",
-  "title": "Gatsby V2 Tutorial Starter",
-  "description": "My Blog",
-  "homepage": "https://gatsby-tutorial-starter.netlify.com",
+  "name": "bnrc-site",
+  "author": "Jay Graffagna",
+  "title": "Bettendorf Natrual Resource Committee",
+  "description": "Website for Bettendorf Natual Resource Commitee",
+  "homepage": "https://github.com/jaygraffagna",
   "license": "MIT",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinformentin/gatsby-v2-tutorial-starter"
+    "url": "https://github.com/jaygraffagna/bnrc-site"
   },
   "scripts": {
     "develop": "gatsby develop",
@@ -64,12 +64,5 @@
     "eslint-plugin-react": "^7.12.3",
     "lighthouse": "^3.2.1",
     "prettier": "^1.15.3"
-  },
-  "keywords": [
-    "justin formentin",
-    "personal blog",
-    "tutorial",
-    "gatsby",
-    "emotion"
-  ]
+  }
 }
