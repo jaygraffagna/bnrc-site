@@ -17,10 +17,9 @@ const Nav = styled.nav`
   font-family: ${props => props.theme.fontFamily.body};
   font-weight: 500;
   font-size: 1.1rem;
-  align-items: center;
   a {
     color: ${props => props.theme.colors.white.base};
-    margin-left: 2rem;
+    margin-left: 1rem;
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
       color: ${props => props.theme.colors.white.grey};
@@ -28,18 +27,31 @@ const Nav = styled.nav`
   }
 `;
 
-const NavBar = () => (
+const NavBar = () => {
+  if(window.screen.availWidth > 700){
+    return (
+      <Headroom calcHeightOnResize disableInlineStyles>
+        <Nav>
+          <Link to="/">Home</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/purpose">Purpose</Link>
+          <Link to="/about">About</Link>
+        </Nav>
+        <StyledLink to="/">
+          <h1>BNRC</h1>
+        </StyledLink>
+      </Headroom>
+    )
+  }
+  return (
   <Headroom calcHeightOnResize disableInlineStyles>
-    <StyledLink to="/">
-      <h1>BNRC</h1>
-    </StyledLink>
     <Nav>
       <Link to="/">Home</Link>
-      <Link to="/blog">Projects</Link>
-      <Link to="/about">Goals</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/purpose">Purpose</Link>
       <Link to="/about">About</Link>
     </Nav>
   </Headroom>
-);
+)};
 
 export default NavBar;

@@ -12,11 +12,11 @@ export const colors = {
   },
   primary: {
     base: '#316f00',
-    light: '#3e5fbc',
-    dark: '#284187',
+    light: '#316f00',
+    dark: '#316f00',
   },
   background: {
-    light: '#809247',
+    light: '#708238',
     dark: '#708238',
   },
 };
@@ -69,7 +69,7 @@ export const theme = {
     // eslint-disable-next-line
     body: `Open Sans,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
     // eslint-disable-next-line
-    heading: `Candal, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+    heading: `Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
   },
   layout: {
     article: '46rem',

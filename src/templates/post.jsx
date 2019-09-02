@@ -28,13 +28,6 @@ const Post = ({ data, pageContext }) => {
   const html = post.html;
   return (
     <Layout>
-      <SEO
-        title={title}
-        description={post.frontmatter.description || post.excerpt || ' '}
-        image={image}
-        pathname={post.frontmatter.path}
-        article
-      />
       <Header title={title} date={date} cover={image} />
       <Container>
         <Content input={html} />

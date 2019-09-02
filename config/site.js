@@ -12,7 +12,7 @@ module.exports = {
   favicon: 'static/logo/favicon.png', // Used for manifest favicon generation
   shortName: 'BNRC', // shortname for manifest. MUST be shorter than 12 characters
   author: 'Jay Graffagna', // Author for schemaORGJSONLD
-  themeColor: '#3e7bf2',
-  backgroundColor: '#d3e0ff',
+  themeColor: '#708238',
+  backgroundColor: '#708238',
   twitter: '@twitter', // Twitter Username
 };
