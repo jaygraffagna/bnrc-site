@@ -22,14 +22,10 @@ const PostWrapper = styled.div`
 
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
-  let titleHdr = 'BNRC';
-  if(window.screen.availWidth > 700){
-    titleHdr = 'Bettendorf Natural Resource Committee';
-  }
   return (
     <Layout>
       <Helmet title={'Bettendorf Natural Resource Committee'} />
-      <Header title={titleHdr}>Restoring &amp; Protecting <br/> Bettendorf's Natural Resources</Header>
+      <Header title="BNRC">Restoring &amp; Protecting <br/> Bettendorf's Natural Resources</Header>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList

@@ -28,21 +28,6 @@ const Nav = styled.nav`
 `;
 
 const NavBar = () => {
-  if(window.screen.availWidth > 700){
-    return (
-      <Headroom calcHeightOnResize disableInlineStyles>
-        <Nav>
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/purpose">Purpose</Link>
-          <Link to="/about">About</Link>
-        </Nav>
-        <StyledLink to="/">
-          <h1>BNRC</h1>
-        </StyledLink>
-      </Headroom>
-    )
-  }
   return (
   <Headroom calcHeightOnResize disableInlineStyles>
     <Nav>
