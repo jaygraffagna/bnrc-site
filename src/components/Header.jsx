@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 
 const Wrapper = styled.header`
@@ -45,14 +44,15 @@ const Subtitle = styled.p`
   color: ${props => props.theme.colors.white.light};
 `;
 
-const Header = ({ children, title, date, cover }) => (
+const Header = ({ children, title }) => {
+  return (
   <Wrapper>
     <Text>
       <h1>{title}</h1>
       {children && <Subtitle>{children}</Subtitle>}
     </Text>
   </Wrapper>
-);
+)};
 
 export default Header;
 

@@ -21,7 +21,7 @@ const Text = styled.div`
 const Footer = () => (
   <Wrapper>
     <Text>
-        Bettendorf Natural Resource Committee
+        Bettendorf Natural Resources Committee
     </Text>
   </Wrapper>
 );

@@ -7,7 +7,7 @@ import { Layout, Container } from 'layouts';
 const Purpose = center => (
   <Layout>
     <Helmet title={'Purpose'} />
-    <Header title="Purpose">Bettendorf Natural Resource Committee</Header>
+    <Header title="Purpose">Bettendorf Natural Resources Committee</Header>
     <Container >
       <h4>
         A Citizens Advisory group to help assist in preserving and enhancing the natural areas in and around our community.

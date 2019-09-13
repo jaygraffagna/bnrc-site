@@ -7,7 +7,6 @@ const StyledLink = styled(Link)`
   display: flex;
   font-weight: 700;
   align-items: center;
-
   color: ${props => props.theme.colors.white.base};
 `;
 
@@ -24,6 +23,12 @@ const Nav = styled.nav`
     &:hover {
       color: ${props => props.theme.colors.white.grey};
     }
+  }
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
+  @media (max-width: 320px) {
+    font-size: .75rem;
   }
 `;
 

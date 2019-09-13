@@ -7,7 +7,7 @@ import { Layout, Container } from 'layouts';
 const About = center => (
   <Layout>
     <Helmet title={'About Us'} />
-    <Header title="About Us">Bettendorf Natural Resource Committee</Header>
+    <Header title="About Us">Bettendorf Natural Resources Committee</Header>
     <Container center={center}>
       <h3>
         Working on adding the members info here

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive'
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
@@ -22,10 +23,13 @@ const PostWrapper = styled.div`
 
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 500px)' })
+  let titleTxt = isTabletOrMobile ? 'BNRC' : 'Bettendorf Natrual Resources Committee';
   return (
     <Layout>
-      <Helmet title={'Bettendorf Natural Resource Committee'} />
-      <Header title="BNRC">Restoring &amp; Protecting <br/> Bettendorf's Natural Resources</Header>
+      <Helmet title={'Bettendorf Natural Resources Committee'} />
+      <Header title={titleTxt}>Restoring &amp; Protecting <br/> Bettendorf's Natural Resources</Header>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList
