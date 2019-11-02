@@ -1,6 +1,6 @@
 ---
 path: "/duck-creek-teasel"
-cover: "./blocks.jpg"
+cover: "./teasel.jpeg"
 date: "2019-06-28"
 title: "Duck Creek Teasel Removal"
 published: true
