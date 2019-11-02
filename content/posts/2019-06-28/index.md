@@ -4,13 +4,13 @@ cover: "./teasel.jpeg"
 date: "2019-06-28"
 title: "Duck Creek Teasel Removal"
 published: true
-tags: ['Invasive', 'Prairies', 'Duck Creek']
+tags: ['Invasive', 'Teasel', 'Duck Creek']
 ---
 The project focus is to restore an area between the creek and bike path to a native praire landscape. It began June 2019 with efforts continuing through July.  Our committiees focus was to remove the invasive plants from the area.  It contained fully developed teasel plants on the Iowa Department of Natrual resources invasive species list.
 
 ###Dates: June 2019 - August 2021
 
-###Location: Duck Creek Bike Path new Devils Glen Park
+###Location: Duck Creek Bike Path near Devils Glen Park
 
 ###Focus: Invasive Species Removal
 
