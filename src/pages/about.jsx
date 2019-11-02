@@ -40,6 +40,34 @@ const About = center => (
         Retired City Administator
       </div>
       <br/>
+      <div>
+        <div>
+          <b>Kara Mitvalsky</b>
+        </div>
+        Community Memeber
+      </div>
+      <br/>
+      <div>
+        <div>
+          <b>Anne Brockway</b>
+        </div>
+        Community Memeber
+      </div>
+      <br/>
+      <div>
+        <div>
+          <b>Jay Graffagna</b>
+        </div>
+        Website Development Resource
+      </div>
+      <br/>
+      <div>
+        <div>
+          <b>Bob Bryant</b>
+        </div>
+        Local Botanist
+      </div>
+      <br/>
     </Container>
   </Layout>
 );
