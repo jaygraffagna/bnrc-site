@@ -13,13 +13,35 @@ const Wrapper = styled.footer`
 
 const Text = styled.div`
   margin: 0;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   color: ${props => props.theme.colors.white.light};
 `;
 
+const SocialWrapper = styled.div`
+  text-align: center;
+`;
+
+const Social = styled.button`
+  background-color: transparent;
+  color: ${props => props.theme.colors.white.light};
+  border: 2px solid ${props => props.theme.colors.white.light};
+  border-radius: 8px;
+  width: 35px;
+  font-size: 16pt;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+`;
+
+
+
 const Footer = () => (
   <Wrapper>
+    <SocialWrapper>
+      <Social onClick={() => window.open('https://www.facebook.com/BettNaturalResources')}>f</Social>
+    </SocialWrapper>
     <Text>
         Bettendorf Natural Resources Committee
     </Text>
