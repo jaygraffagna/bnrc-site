@@ -16,7 +16,7 @@ const About = center => (
         <div>
           <b>Candace Egger</b>
         </div>
-        Retired Bettendorf Teacher
+        Retired Bettendorf School District Teacher
       </div>
       <br/>
       <div>
@@ -30,42 +30,42 @@ const About = center => (
         <div>
           <b>Bill Collett</b>
         </div>
-        Bettendorf High Environmental Science Teacher
+        Retired Bettendorf School District Teacher
       </div>
       <br/>
       <div>
         <div>
           <b>Ann Kappeler</b>
         </div>
-        Retired City Administator
+        Bettendorf Planning &amp; Zoning Commission
       </div>
       <br/>
       <div>
         <div>
           <b>Kara Mitvalsky</b>
         </div>
-        Community Memeber
+        Land Planning Associates
       </div>
       <br/>
       <div>
         <div>
           <b>Anne Brockway</b>
         </div>
-        Community Memeber
+        US Army Corp of Engineers
       </div>
       <br/>
       <div>
         <div>
           <b>Jay Graffagna</b>
         </div>
-        Website Development Resource
+        Software Developer - MidAmerican Energy
       </div>
       <br/>
       <div>
         <div>
           <b>Bob Bryant</b>
         </div>
-        Local Botanist
+        Retired Wapsi Center Director, Naturalist
       </div>
       <br/>
     </Container>
