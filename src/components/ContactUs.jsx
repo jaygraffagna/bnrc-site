@@ -2,7 +2,8 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const ContactUsWrapper = styled.div`
-  padding-top:2rem;
+  padding-top:1rem;
+  padding-bottom:2rem;
   text-align: center;
 `;
 

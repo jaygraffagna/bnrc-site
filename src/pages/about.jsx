@@ -3,12 +3,18 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { Header } from 'components';
 import { Layout, Container } from 'layouts';
+import ContactUs from '../components/ContactUs';
 
 const About = center => (
   <Layout>
     <Helmet title={'About Us'} />
     <Header title="About Us">Bettendorf Natural Resources Committee</Header>
     <Container center={center}>
+      <p>
+        We are a committee focused on protecting and restoring natural resources within the City of Bettendorf.
+        Our committee members come from different proffessional backgrounds with one goal in mind.
+        The committee meets regularly for planning and prospective projects.
+      </p>
       <h2>
         Members
       </h2>
@@ -68,6 +74,11 @@ const About = center => (
         Retired Wapsi Center Director, Naturalist
       </div>
       <br/>
+      <br/>
+      <h4>
+        Anyone from the public is welcome to praticpate in the committee
+      </h4>
+      <ContactUs />
     </Container>
   </Layout>
 );

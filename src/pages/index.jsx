@@ -31,6 +31,7 @@ const Index = ({ data }) => {
     <Layout>
       <Helmet title={'Bettendorf Natural Resources Committee'} />
       <Header title={titleTxt}>Restoring &amp; Protecting <br/> Bettendorf's Natural Resources</Header>
+      <br/>
       <ContactUs/>
       <PostWrapper>
         {edges.map(({ node }) => (
