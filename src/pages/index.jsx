@@ -6,6 +6,7 @@ import Helmet from 'react-helmet';
 import styled from '@emotion/styled';
 import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
+import ContactUs from '../components/ContactUs';
 
 const PostWrapper = styled.div`
   display: flex;
@@ -30,6 +31,7 @@ const Index = ({ data }) => {
     <Layout>
       <Helmet title={'Bettendorf Natural Resources Committee'} />
       <Header title={titleTxt}>Restoring &amp; Protecting <br/> Bettendorf's Natural Resources</Header>
+      <ContactUs/>
       <PostWrapper>
         {edges.map(({ node }) => (
           <PostList
