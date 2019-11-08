@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 
 const ContactUsWrapper = styled.div`
   padding-top:1rem;
-  padding-bottom:2rem;
+  padding-bottom:0rem;
   text-align: center;
 `;
 
@@ -24,7 +24,7 @@ const ContactUsButton = styled.button`
 
 const ContactUs = () => (
     <ContactUsWrapper>
-      <ContactUsButton onClick={() => window.open("mailto:subject=Question for BNRC")}>Contact Us</ContactUsButton>
+      <ContactUsButton onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfxe8-im2PvxV8pWSOGxJV9hrA1VFytLCulP6x8oU6fsbnZ6g/viewform?usp=sf_link")}>Contact Us</ContactUsButton>
     </ContactUsWrapper>
 );
 export default ContactUs;
