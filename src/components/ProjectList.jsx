@@ -7,7 +7,6 @@ import { TagsBlock } from 'components';
 import { Container } from 'layouts';
 
 const Wrapper = styled.article`
-  margin: 0 3rem;
 `;
 
 const Image = styled.div`

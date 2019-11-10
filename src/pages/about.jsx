@@ -50,7 +50,7 @@ const About = center => (
         <div>
           <b>Kara Mitvalsky</b>
         </div>
-        Land Planning Associates
+        Brockway Land Planning Associates
       </div>
       <br/>
       <div>
