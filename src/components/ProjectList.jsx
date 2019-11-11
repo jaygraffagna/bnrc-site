@@ -7,6 +7,13 @@ import { TagsBlock } from 'components';
 import { Container } from 'layouts';
 
 const Wrapper = styled.article`
+margin: 0 3rem;
+@media (max-width: 1000px) {
+  margin: 0rem;
+}
+@media (max-width: 700px) {
+  margin: 0rem;
+}
 `;
 
 const Image = styled.div`

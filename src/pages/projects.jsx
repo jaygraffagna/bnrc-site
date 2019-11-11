@@ -4,6 +4,22 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { Header, ProjectList } from 'components';
 import { Layout } from 'layouts';
+import styled from '@emotion/styled';
+
+const MapWrapper = styled.div`
+  text-align: center;
+  margin: 2rem 2rem 0rem 2rem;
+`;
+
+const Map = styled.iframe`
+  width: 600px;
+  height: 400px;
+  @media (max-width: 700px) {
+
+    width: 250px;
+    height: 300px;
+  }
+`;
 
 const Projects = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
@@ -22,6 +38,9 @@ const Projects = ({ data }) => {
           excerpt={node.excerpt}
         />
       ))}
+      <MapWrapper>
+        <Map src="https://www.google.com/maps/d/embed?mid=1trqr0NFYPmsBpF3IlV8QJK5L1MESKmxP" />
+      </MapWrapper>
     </Layout>
   );
 };
