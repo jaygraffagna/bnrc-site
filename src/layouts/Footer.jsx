@@ -28,11 +28,12 @@ const Social = styled.button`
   color: ${props => props.theme.colors.white.light};
   border: 2px solid ${props => props.theme.colors.white.light};
   border-radius: 8px;
-  width: 30px;
+  width: 35px;
   font-size: 16pt;
   font-weight: bold;
   outline: none;
   cursor: pointer;
+  text-align: center;
 `;
 
 
