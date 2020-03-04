@@ -48,14 +48,14 @@ const About = center => (
       <br/>
       <div>
         <div>
-          <b>Kara Mitvalsky</b>
+          <b>Anne Brockway</b>
         </div>
         Brockway Land Planning Associates
       </div>
       <br/>
       <div>
         <div>
-          <b>Anne Brockway</b>
+          <b>Kara Mitvalsky</b>
         </div>
         US Army Corp of Engineers
       </div>
