@@ -36,11 +36,10 @@ const PostWrapper = styled.div`
  }
  `;
 const EventWrapper = styled.div`
-margin: 0rem 8rem 2rem 8rem;
+margin: 0rem 8rem 0rem 8rem;
 border: 2px solid ${props => props.theme.colors.background.dark};
 border-radius: 8px;
   text-align: center;
-  height: 100px;
   @media (max-width: 1000px) {
     margin: 0rem 2rem 2rem 2rem;
   }
@@ -50,7 +49,7 @@ border-radius: 8px;
 `;
 
 const EventTitle = styled.p`
-
+margin-bottom:0;
 border: 2px solid ${props => props.theme.colors.white.light};
 border-radius: 8px;
 font-size: 16pt;
@@ -73,7 +72,12 @@ const Index = ({ data }) => {
       </Info>
       <EventWrapper>
         <EventTitle>Events</EventTitle>
-        no upcoming
+          <div>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLScPkABzgP7NG3Fgo7qg5eeQG7odZUWNttxI6e9TehjL1zIBew/viewform">March 7th at 10 AM: Devils Glen Park Trash Pick Up</a>
+           </div>
+           <div>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLScPkABzgP7NG3Fgo7qg5eeQG7odZUWNttxI6e9TehjL1zIBew/viewform">May 9th at 2 PM: Hollowview Park Garlic Mustard Pull</a>
+           </div>
       </EventWrapper>
       <PostWrapper>
         {edges.map(({ node }) => (
