@@ -8,17 +8,50 @@ public_folder: "/images"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "content/posts"
+  - name: "events"
+    label: "Events"
+    folder: "static/events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Event Date", name: "date", widget: "datetime"}
+      - {label: "Link", name: "link", widget: string}
+  - name: "projects"
+    label: "Projects"
+    folder: "static/projects"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Project Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+  - name: "goals"
+    label: "General Goals"
+    folder: "static/goals"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "goal"}
+      - {label: "Goal", name: "goal", widget: "string"}
+  - name: "objectives"
+    label: "Year Objectives"
+    folder: "static/objectives"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "objective"}
+      - {label: "Objective", name: "objective", widget: "string"}
+  - name: "members"
+    label: "Members"
+    folder: "static/members"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "member"}
+      - {label: "Member", name: "member", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
