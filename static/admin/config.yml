@@ -26,8 +26,8 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Start Date", name: "date", widget: "datetime"}
-      - {label: "End Date", name: "date", widget: "datetime"}
+      - {label: "Start Date", name: "start-date", widget: "datetime"}
+      - {label: "End Date", name: "end-date", widget: "datetime"}
       - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
