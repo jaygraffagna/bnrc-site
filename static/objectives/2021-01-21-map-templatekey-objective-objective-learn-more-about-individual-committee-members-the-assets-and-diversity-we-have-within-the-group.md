@@ -1,0 +1,5 @@
+---
+templateKey: objective
+objective: Learn more about individual committee members, the assets, and
+  diversity we have within the group
+---
