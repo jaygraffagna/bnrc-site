@@ -1,0 +1,6 @@
+---
+templateKey: goal
+goal: Make biodiversity real to help convey the connection to the quality of
+  life of Bettendorf citizens and integrate the conservation of biodiversity
+  into ongoing development and planning
+---
