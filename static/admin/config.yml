@@ -14,7 +14,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Event Date", name: "date", widget: "datetime"}
       - {label: "Link", name: "link", widget: string}
@@ -24,7 +23,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Start Date", name: "start-date", widget: "datetime"}
       - {label: "End Date", name: "end-date", widget: "datetime"}
@@ -37,7 +35,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "goal"}
       - {label: "Goal", name: "goal", widget: "string"}
   - name: "objectives"
     label: "Year Objectives"
@@ -45,7 +42,6 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "objective"}
       - {label: "Objective", name: "objective", widget: "string"}
   - name: "members"
     label: "Members"
@@ -53,6 +49,5 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "member"}
       - {label: "Member", name: "member", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
