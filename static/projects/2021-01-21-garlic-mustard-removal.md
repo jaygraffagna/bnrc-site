@@ -6,7 +6,7 @@ end-date: 2022-10-02T01:25:33.890Z
 image: /images/garlic_mustard.jpg
 tags:
   - Invasive
-  - GarlicMustard
+  - Garlic Mustard
   - Parks
 ---
 The removal of garlic mustard - an invasive plant species has been an ongoing project. For the last several years volunteers have worked on clearing larger, disconnected areas. Some years garlic mustard pulls were not held. This has allowed the garlic mustard to continue to spread.
