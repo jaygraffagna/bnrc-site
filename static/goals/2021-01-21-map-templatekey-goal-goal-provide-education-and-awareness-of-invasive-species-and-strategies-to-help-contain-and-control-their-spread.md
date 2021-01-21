@@ -1,5 +1,0 @@
----
-templateKey: goal
-goal: Provide education and awareness of invasive species and strategies to help
-  contain and control their spread
----
