@@ -9,8 +9,8 @@ collections:
   - name: "events"
     label: "Events"
     folder: "static/events"
+    extension: "json"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Event Date", name: "date", widget: "datetime"}
@@ -19,33 +19,40 @@ collections:
     label: "Projects"
     folder: "static/projects"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Start Date", name: "start-date", widget: "datetime"}
-      - {label: "End Date", name: "end-date", widget: "datetime"}
       - {label: "Image", name: "image", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "goals"
     label: "General Goals"
     folder: "static/goals"
+    extension: "json"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "ID", name: "title", widget: "string"}
       - {label: "Goal", name: "goal", widget: "string"}
   - name: "objectives"
     label: "Year Objectives"
     folder: "static/objectives"
+    extension: "json"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "ID", name: "title", widget: "string"}
       - {label: "Objective", name: "objective", widget: "string"}
   - name: "members"
     label: "Members"
     folder: "static/members"
+    extension: "json"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Member", name: "member", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Member", name: "title", widget: "string"}
+      - {label: "Occupation", name: "occupation", widget: "string"}
+  - name: "contacts"
+    label: "Contact (Only one Entry)"
+    folder: "static/contact"
+    extension: "json"
+    create: true
+    fields:
+      - {label: "ID", name: "title", widget: "string"}
+      - {label: "Contact URL", name: "contact", widget: "string"}
