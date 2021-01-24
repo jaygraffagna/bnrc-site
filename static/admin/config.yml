@@ -49,7 +49,7 @@ collections:
       - {label: "Member", name: "title", widget: "string"}
       - {label: "Occupation", name: "occupation", widget: "string"}
   - name: "contacts"
-    label: "Contact (Only one Entry)"
+    label: "Contact (Only One Entry)"
     folder: "static/contact"
     extension: "json"
     create: true
